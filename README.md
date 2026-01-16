@@ -1,4 +1,4 @@
-# leeseungwon_backend
+# 송금 서비스
 
 계좌 등록/삭제, 입금/출금/이체, 거래내역 조회 기능을 제공하는 송금 서비스입니다.  
 Spring Boot + JPA(Hibernate) 기반이며, 멱등성/동시성 이슈를 고려하여 Redis 락 및 DB 비관적 락을 적용했습니다.
